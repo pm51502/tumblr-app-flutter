@@ -1,0 +1,42 @@
+{
+  "@@locale": "en",
+  "appTitle": "TumblrApp",
+  "postsListScreenTitle": "Posts List",
+  "fetchedPostsCount": "Fetched posts: {posts_count}",
+  "@fetchedPostsCount": {
+    "placeholders": {
+      "posts_count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "localPostsLoadingError": "An error occurred while fetching the local posts.",
+  "apiPostsLoadingError": "An error occurred while fetching the api posts.",
+  "postDeleted": "Post deleted",
+  "postRestored": "Post restored",
+  "undo": "undo",
+  "postDetailsScreenTitle": "Post Details",
+  "postIndex": "Post index: {index}",
+  "@postIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "urlLaunchError": "Could not launch {url}",
+  "@urlLauncherError": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritePostsScreenTitle": "Favorite Posts",
+  "noFavoritePostsPlaceholder": "Currently you have no favorite posts",
+  "retry": "Retry",
+  "removedFromFavorites": "Post removed from favorites",
+  "addedToFavorites": "Post added to favorites"
+}

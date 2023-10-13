@@ -1,0 +1,42 @@
+{
+  "@@locale": "hr",
+  "appTitle": "TumblrApp",
+  "postsListScreenTitle": "Lista Objava",
+  "fetchedPostsCount": "Dohvaćene objave: {posts_count}",
+  "@fetchedPostsCount": {
+    "placeholders": {
+      "posts_count": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "localPostsLoadingError": "Dogodila se pogreška prilikom dohvaćanja lokalnih objava.",
+  "apiPostsLoadingError": "Dogodila se pogreška prilikom dohvaćanja API objava.",
+  "postDeleted": "Objava obrisana",
+  "postRestored": "Objava obnovljena",
+  "undo": "poništi",
+  "postDetailsScreenTitle": "Detalji Objave",
+  "postIndex": "Indeks objave: {index}",
+  "@postIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "urlLaunchError": "Nije moguće otvoriti {url}",
+  "@urlLauncherError": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "favoritePostsScreenTitle": "Omiljene Objave",
+  "noFavoritePostsPlaceholder": "Trenutno nemate omiljenih objava",
+  "retry": "Ponovno pokušaj",
+  "removedFromFavorites": "Objava uklonjena iz omiljenih",
+  "addedToFavorites": "Objava dodana u omiljene"
+}
